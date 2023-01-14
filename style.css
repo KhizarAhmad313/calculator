@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Oswald&display=swap");
+
+body {
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  color: #00203f;
+}
+
+h3 {
+  color: #00203f;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px;
+}
+a {
+  font-size: 25px;
+  color: #3b1877;
+  background-color: #da5a2a;
+  text-decoration: none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+a:hover {
+  font-size: 30px;
+  background-color: #3b1877;
+  color: #da5a2a;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.container {
+  /* From https://css.glass */
+  /* glass effect start */
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 10px 10px 10px;
+  /* glass effect end */
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 350px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.result {
+  width: 300px;
+  height: 100px;
+  font-size: 27.5px;
+  color: #02343f;
+}
+
+button {
+  background-color: #02343f;
+  color: #f0edcc;
+  border: none;
+  border-radius: 10px;
+  width: 75px;
+  height: 50px;
+  margin: 5px;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #f0edcc;
+  color: #02343f;
+  font-size: 20px;
+  padding: 2px;
+  font-family: "Oswald", sans-serif;
+}
