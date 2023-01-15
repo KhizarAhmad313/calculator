@@ -77,7 +77,7 @@ button {
   text-align: center;
 }
 
-button:hover {
+button:active {
   background-color: #f0edcc;
   color: #02343f;
   font-size: 20px;
